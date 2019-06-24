@@ -74,129 +74,130 @@ function setup() {
 }
 function draw() {
   background(152,163,162)
+  imageMode(CORNER)
   image(myImage, 0,0, image.width, image.height);
 //henri
-  if ((mouseX > windowWidth / 10) && (mouseX < windowWidth / 5) && (mouseY > windowHeight/5.3)&& (mouseY < windowHeight/2)) {
+  if ((mouseX > windowWidth / 10) && (mouseX < windowWidth / 5) && (mouseY > windowHeight/5.3)&& (mouseY < windowHeight/3)) {
      image(myImage2, 0, 0, windowWidth, windowHeight);
     }
    // alcide
-    if ((mouseX > windowWidth / 5.3) && (mouseX < windowWidth / 4) && (mouseY > windowHeight/5.3) && (mouseY < windowHeight/2)) {
+    if ((mouseX > windowWidth / 5.3) && (mouseX < windowWidth / 4) && (mouseY > windowHeight/5.3) && (mouseY < windowHeight/3)) {
      image(myImage3, 0, 0, windowWidth, windowHeight);
    }
    // giuseppe
-   if ((mouseX > windowWidth / 3.5) && (mouseX < windowWidth / 2.8)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/2)) {
+   if ((mouseX > windowWidth / 3.5) && (mouseX < windowWidth / 2.8)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/3)) {
      image(myImage4, 0, 0, windowWidth, windowHeight);
    }
    // furler
-   if ((mouseX > windowWidth / 2.6) && (mouseX < windowWidth / 2)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/2)) {
+   if ((mouseX > windowWidth / 2.6) && (mouseX < windowWidth / 2)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/3)) {
      image(myImage5, 0, 0, windowWidth, windowHeight);
    }
    // shuman
-   if ((mouseX > windowWidth / 1.99) && (mouseX < windowWidth / 1.8)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/2)) {
+   if ((mouseX > windowWidth / 1.99) && (mouseX < windowWidth / 1.8)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/3)) {
       image(myImage6, 0, 0, windowWidth, windowHeight);
     }
     // furler 2
-    if ((mouseX > windowWidth / 1.7) && (mouseX < windowWidth / 1.5)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/2)) {
+    if ((mouseX > windowWidth / 1.7) && (mouseX < windowWidth / 1.5)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/3)) {
       image(myImage7, 0, 0, windowWidth, windowHeight);
     }
     // gaetano
-    if ((mouseX > windowWidth / 1.4) && (mouseX < windowWidth / 1.2)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/2)) {
+    if ((mouseX > windowWidth / 1.4) && (mouseX < windowWidth / 1.3)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/3)) {
       image(myImage8, 0, 0, windowWidth, windowHeight);
     }
     //du
-    if ((mouseX > windowWidth / 1.2) && (mouseX < windowWidth / 0.99)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/2)) {
+    if ((mouseX > windowWidth / 1.25) && (mouseX < windowWidth / 0.99)&&(mouseY > windowHeight/5.3)&& (mouseY < windowHeight/3)) {
       image(myImage9, 0, 0, windowWidth, windowHeight);
     }
     //victor
-    if ((mouseX > windowWidth / 10) && (mouseX < windowWidth / 5)&&(mouseY > windowHeight/1.9)&& (mouseY < windowHeight/1.6)) {
+    if ((mouseX > windowWidth / 10) && (mouseX < windowWidth / 5)&&(mouseY > windowHeight/2.3)&& (mouseY < windowHeight/1.9)) {
       image(myImage10, 0, 0, windowWidth, windowHeight);
     }
     //poher
-    if ((mouseX > windowWidth / 5.3) && (mouseX < windowWidth / 4)&&(mouseY > windowHeight/1.9)&& (mouseY < windowHeight/1.6)) {
+    if ((mouseX > windowWidth / 5.3) && (mouseX < windowWidth / 4)&&(mouseY > windowHeight/2.3)&& (mouseY < windowHeight/1.9)) {
       image(myImage11, 0, 0, windowWidth, windowHeight);
     }
     //scelba
-    if ((mouseX > windowWidth / 3.5) && (mouseX < windowWidth / 2.8)&&(mouseY > windowHeight/1.9)&& (mouseY < windowHeight/1.6)) {
+    if ((mouseX > windowWidth / 3.5) && (mouseX < windowWidth / 2.8)&&(mouseY > windowHeight/2.3)&& (mouseY < windowHeight/1.9)) {
       image(myImage12, 0, 0, windowWidth, windowHeight);
     }
     //walter
-    if ((mouseX > windowWidth / 2.6) && (mouseX < windowWidth / 2)&&(mouseY > windowHeight/1.9)&& (mouseY < windowHeight/1.6)) {
+    if ((mouseX > windowWidth / 2.6) && (mouseX < windowWidth / 2)&&(mouseY > windowHeight/2.3)&& (mouseY < windowHeight/1.9)) {
       image(myImage13, 0, 0, windowWidth, windowHeight);
     }
     //cornelis
-    if ((mouseX > windowWidth / 1.99) && (mouseX < windowWidth / 1.8)&&(mouseY > windowHeight/1.9)&& (mouseY < windowHeight/1.6)) {
+    if ((mouseX > windowWidth / 1.99) && (mouseX < windowWidth / 1.8)&&(mouseY > windowHeight/2.3)&& (mouseY < windowHeight/1.9)) {
       image(myImage14, 0, 0, windowWidth, windowHeight);
     }
     //spenale
-    if ((mouseX > windowWidth / 1.7) && (mouseX < windowWidth / 1.5)&&(mouseY > windowHeight/1.9)&& (mouseY < windowHeight/1.6)) {
+    if ((mouseX > windowWidth / 1.7) && (mouseX < windowWidth / 1.5)&&(mouseY > windowHeight/2.3)&& (mouseY < windowHeight/1.9)) {
       image(myImage15, 0, 0, windowWidth, windowHeight);
     }
     //colombo
-    if ((mouseX > windowWidth / 1.4) && (mouseX < windowWidth / 1.2)&&(mouseY > windowHeight/1.9)&& (mouseY < windowHeight/1.6)) {
+    if ((mouseX > windowWidth / 1.4) && (mouseX < windowWidth / 1.3)&&(mouseY > windowHeight/2.3)&& (mouseY < windowHeight/1.9)) {
       image(myImage16, 0, 0, windowWidth, windowHeight);
     }
     //veil
-    if ((mouseX > windowWidth / 1.2) && (mouseX < windowWidth / 0.99)&&(mouseY > windowHeight/1.9)&& (mouseY < windowHeight/1.6)) {
+    if ((mouseX > windowWidth / 1.25) && (mouseX < windowWidth / 0.99)&&(mouseY > windowHeight/2.3)&& (mouseY < windowHeight/1.9)) {
       image(myImage17, 0, 0, windowWidth, windowHeight);
     }
     //pierre
-    if ((mouseX > windowWidth / 10) && (mouseX < windowWidth / 5)&&(mouseY > windowHeight/1.4)&& (mouseY < windowHeight/1.2)) {
+    if ((mouseX > windowWidth / 10) && (mouseX < windowWidth / 5)&&(mouseY > windowHeight/1.7)&& (mouseY < windowHeight/1.5)) {
       image(myImage18, 0, 0, windowWidth, windowHeight);
     }
     //piet
-    if ((mouseX > windowWidth / 5.3) && (mouseX < windowWidth / 4)&&(mouseY > windowHeight/1.4)&& (mouseY < windowHeight/1.2)) {
+    if ((mouseX > windowWidth / 5.3) && (mouseX < windowWidth / 4)&&(mouseY > windowHeight/1.7)&& (mouseY < windowHeight/1.5)) {
       image(myImage19, 0, 0, windowWidth, windowHeight);
     }
     //plumb
-    if ((mouseX > windowWidth / 3.5) && (mouseX < windowWidth / 2.8)&&(mouseY > windowHeight/1.4)&& (mouseY < windowHeight/1.2)) {
+    if ((mouseX > windowWidth / 3.5) && (mouseX < windowWidth / 2.8)&&(mouseY > windowHeight/1.7)&& (mouseY < windowHeight/1.5)) {
       image(myImage20, 0, 0, windowWidth, windowHeight);
     }
     //crespo
-    if ((mouseX > windowWidth / 2.6) && (mouseX < windowWidth / 2)&&(mouseY > windowHeight/1.4)&& (mouseY < windowHeight/1.2)) {
+    if ((mouseX > windowWidth / 2.6) && (mouseX < windowWidth / 2)&&(mouseY > windowHeight/1.7)&& (mouseY < windowHeight/1.5)) {
       image(myImage21, 0, 0, windowWidth, windowHeight);
     }
     //egon
-    if ((mouseX > windowWidth / 1.99) && (mouseX < windowWidth / 1.8)&&(mouseY > windowHeight/1.4)&& (mouseY < windowHeight/1.2)) {
+    if ((mouseX > windowWidth / 1.99) && (mouseX < windowWidth / 1.8)&&(mouseY > windowHeight/1.7)&& (mouseY < windowHeight/1.5)) {
       image(myImage22, 0, 0, windowWidth, windowHeight);
     }
     //klaus
-    if ((mouseX > windowWidth / 1.7) && (mouseX < windowWidth / 1.5)&&(mouseY > windowHeight/1.4)&& (mouseY < windowHeight/1.2)) {
+    if ((mouseX > windowWidth / 1.7) && (mouseX < windowWidth / 1.5)&&(mouseY > windowHeight/1.7)&& (mouseY < windowHeight/1.5)) {
       image(myImage23, 0, 0, windowWidth, windowHeight);
     }
     //robles
-    if ((mouseX > windowWidth / 1.4) && (mouseX < windowWidth / 1.2)&&(mouseY > windowHeight/1.4)&& (mouseY < windowHeight/1.2)) {
+    if ((mouseX > windowWidth / 1.4) && (mouseX < windowWidth / 1.3)&&(mouseY > windowHeight/1.7)&& (mouseY < windowHeight/1.5)) {
       image(myImage24, 0, 0, windowWidth, windowHeight);
     }
     //nicole
-    if ((mouseX > windowWidth / 1.2) && (mouseX < windowWidth / 0.99)&&(mouseY > windowHeight/1.4)&& (mouseY < windowHeight/1.2)) {
+    if ((mouseX > windowWidth / 1.25) && (mouseX < windowWidth / 0.99)&&(mouseY > windowHeight/1.7)&& (mouseY < windowHeight/1.5)) {
       image(myImage25, 0, 0, windowWidth, windowHeight);
     }
     //cox
-    if ((mouseX > windowWidth / 10) && (mouseX < windowWidth / 5)&&(mouseY > windowHeight/1.1)&& (mouseY < windowHeight/1)) {
+    if ((mouseX > windowWidth / 10) && (mouseX < windowWidth / 5)&&(mouseY > windowHeight/1.3)&& (mouseY < windowHeight/1)) {
       image(myImage26, 0, 0, windowWidth, windowHeight);
     }
     //borrel
-    if ((mouseX > windowWidth / 5.3) && (mouseX < windowWidth / 4)&&(mouseY > windowHeight/1.1)&& (mouseY < windowHeight/1)) {
+    if ((mouseX > windowWidth / 5.3) && (mouseX < windowWidth / 4)&&(mouseY > windowHeight/1.3)&& (mouseY < windowHeight/1)) {
       image(myImage27, 0, 0, windowWidth, windowHeight);
     }
     //hans
-    if ((mouseX > windowWidth / 3.5) && (mouseX < windowWidth / 2.8)&&(mouseY > windowHeight/1.1)&& (mouseY < windowHeight/1)) {
+    if ((mouseX > windowWidth / 3.5) && (mouseX < windowWidth / 2.8)&&(mouseY > windowHeight/1.3)&& (mouseY < windowHeight/1)) {
       image(myImage28, 0, 0, windowWidth, windowHeight);
     }
     //buzek
-    if ((mouseX > windowWidth / 2.6) && (mouseX < windowWidth / 2)&&(mouseY > windowHeight/1.1)&& (mouseY < windowHeight/1)) {
+    if ((mouseX > windowWidth / 2.6) && (mouseX < windowWidth / 2)&&(mouseY > windowHeight/1.4)&& (mouseY < windowHeight/1)) {
       image(myImage29, 0, 0, windowWidth, windowHeight);
     }
     //martin
-    if ((mouseX > windowWidth / 1.99) && (mouseX < windowWidth / 1.8)&&(mouseY > windowHeight/1.1)&& (mouseY < windowHeight/1)) {
+    if ((mouseX > windowWidth / 1.99) && (mouseX < windowWidth / 1.8)&&(mouseY > windowHeight/1.3)&& (mouseY < windowHeight/1)) {
       image(myImage30, 0, 0, windowWidth, windowHeight);
     }
     //martin2
-    if ((mouseX > windowWidth / 1.7) && (mouseX < windowWidth / 1.5)&&(mouseY > windowHeight/1.1)&& (mouseY < windowHeight/1)) {
+    if ((mouseX > windowWidth / 1.7) && (mouseX < windowWidth / 1.5)&&(mouseY > windowHeight/1.3)&& (mouseY < windowHeight/1)) {
       image(myImage31, 0, 0, windowWidth, windowHeight);
     }
     //tajani
-    if ((mouseX > windowWidth / 1.4) && (mouseX < windowWidth / 1.2)&&(mouseY > windowHeight/1.1)&& (mouseY < windowHeight/1)) {
+    if ((mouseX > windowWidth / 1.4) && (mouseX < windowWidth / 1.3)&&(mouseY > windowHeight/1.3)&& (mouseY < windowHeight/1)) {
       image(myImage32, 0, 0, windowWidth, windowHeight);
     }
 }
